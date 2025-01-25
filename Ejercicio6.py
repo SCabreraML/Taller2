@@ -48,7 +48,7 @@ def salida():
             match opcion:
                 case 1:
                     fila = agregar_fila()  
-                    arreglo.extend(fila)  
+                    arreglo += fila  # Usamos el operador de concatenación
                     mostrar_arreglo(arreglo)  
                 case 2:
                     pares = obtener_pares(arreglo) 
@@ -65,5 +65,3 @@ def salida():
         print("Ha ocurrido un error")
 
 salida()
-
-        
