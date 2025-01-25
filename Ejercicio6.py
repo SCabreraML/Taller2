@@ -48,7 +48,7 @@ def salida():
             match opcion:
                 case 1:
                     fila = agregar_fila()  
-                    arreglo += fila  # Usamos el operador de concatenación
+                    arreglo += fila  
                     mostrar_arreglo(arreglo)  
                 case 2:
                     pares = obtener_pares(arreglo) 
