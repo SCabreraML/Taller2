@@ -1,5 +1,5 @@
 # Grupo: Los papis
 
 # Sebastián Cabrera
-# Jordam Castillo
+# Jordan Castillo
 # Valentino Vargas
